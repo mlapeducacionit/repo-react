@@ -15,7 +15,7 @@ const DetalleProducto = () => {
     }, [])
 
     const getOneProducto = async () => {
-      const url = 'http://localhost:8080/productos/'
+      const url = import.meta.env.VITE_API_PRODUCTOS
 
       try {
 
